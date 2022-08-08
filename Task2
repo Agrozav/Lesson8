@@ -1,0 +1,6 @@
+y = [24,78]
+def maximum():
+    return max(y)
+print('Maximum из двух = ',maximum())
+y = [24,57,45]
+print('Maximum из трех =',maximum())
