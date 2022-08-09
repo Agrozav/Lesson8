@@ -1,0 +1,5 @@
+x = [('bread',5),('eggs',30),('milk',2),('cola',1)]
+sorted_x = sorted(x, key = lambda y: y[0:])
+print('The sorted list are: ')
+for value in sorted_x:
+    print(value, end ='' )
